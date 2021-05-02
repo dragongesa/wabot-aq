@@ -95,12 +95,12 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 │ Tanggal Islam: *%dateIslamic*
 │ Waktu: *%time*
 │
-// │ Uptime: *%uptime (%muptime)*
-// │ Database: %rtotalreg of %totalreg
-// │ Github:
-// │ %github
 ╰────
 %readmore`
+    // │ Uptime: *%uptime (%muptime)*
+    // │ Database: %rtotalreg of %totalreg
+    // │ Github:
+    // │ %github
     let header = conn.menu.header || '╭─「 %category 」'
     let body = conn.menu.body || '│ • %cmd%islimit'
     let footer = conn.menu.footer || '╰────\n'
